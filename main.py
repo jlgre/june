@@ -2,6 +2,7 @@
 
 from tkinter import Tk, Frame
 
+
 def main():
     root = Tk()
     root.title("Frame Example")
@@ -14,6 +15,7 @@ def main():
     right_frame.grid(row=0, column=1, padx=10, pady=5)
 
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
